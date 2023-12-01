@@ -2,7 +2,7 @@
   "homepage": "https://sukritgoyal26.github.io/portfolio",
   "name": "task-6",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
