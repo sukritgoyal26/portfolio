@@ -12,9 +12,9 @@ function App() {
       <Router>
       <NavBar />
         <Routes>
-          <Route path="/portfolio/Home" element = {<Home />} />
-          <Route path="/portfolio/projects" element = {<Projects />} />
-          <Route path="/portfolio/experience" element = {<Experience />} />
+          <Route path="https://sukritgoyal26.github.io/portfolio" element = {<Home />} />
+          <Route path="https://sukritgoyal26.github.io/portfolio/projects" element = {<Projects />} />
+          <Route path="https://sukritgoyal26.github.io/portfolio/experience" element = {<Experience />} />
 
         </Routes>
         <Footer />
