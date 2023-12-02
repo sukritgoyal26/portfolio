@@ -9,18 +9,16 @@ function App() {
   return (
     <div className="App">
       
-      <Router>
       <NavBar />
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/portfolio">
       <Routes>
-          <Route path="/" element = {<Home />} />
+          <Route exact path="/portfolio" element = {<Home />} />
           <Route path="/projects" element = {<Projects />} />
           <Route path="/experience" element = {<Experience />} />
         </Routes>
-      </BrowserRouter>
-        
+        </BrowserRouter>
         <Footer />
-      </Router>
+      
     </div>
   );
 }
