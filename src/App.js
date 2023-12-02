@@ -8,17 +8,16 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="App">
-      
+      <Router>
       <NavBar />
-      <BrowserRouter basename="/portfolio">
+      
       <Routes>
-          <Route exact path="/portfolio" element = {<Home />} />
+          <Route  path="/home" element = {<Home />} />
           <Route path="/projects" element = {<Projects />} />
           <Route path="/experience" element = {<Experience />} />
         </Routes>
-        </BrowserRouter>
         <Footer />
-      
+        </Router>
     </div>
   );
 }
