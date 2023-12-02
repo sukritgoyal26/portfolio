@@ -9,15 +9,15 @@ function App() {
   return (
     <div className="App">
       
-      <NavBar />
       <Router>
+      <NavBar />
       <Routes>
           <Route path="/" element = {<Home />} />
           <Route path="/projects" element = {<Projects />} />
           <Route path="/experience" element = {<Experience />} />
         </Routes>
+      <Footer />
       </Router>
-        <Footer />
         
     </div>
   );
